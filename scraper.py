@@ -8,7 +8,7 @@ from google.oauth2.credentials import Credentials
 
 # --- CONFIGURATION ---
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive.file"]
-API_KEY = "AIzaSyDj3dU6mFavFMPrPgIm-MVCFTbFuGLrA3s"
+API_KEY = 
 
 def authenticate_google_sheets():
     """Authenticates with Google Sheets and returns a gspread client."""
